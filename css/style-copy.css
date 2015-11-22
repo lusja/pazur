@@ -47,14 +47,13 @@ p.text{
 	line-height: 24px;
 	font-family: 'Open Sans', sans-serif;
 }
-/* adres firmy w Kontakt Section M.*/
-em.adress{
-	font-size: 18px !important;
+.adress{
+	font-size: 18px;
 	margin: 12px 0 0;
-	line-height: 28px !important;
+	line-height: 28px;
 	font-family: 'Open Sans', sans-serif;
+	padding: 80px;
 }
-
 a{ color: #FCC07E;}
 a:hover,
 a:focus{
@@ -78,7 +77,7 @@ ul, ol{
 	webkit-padding: 0;
 	moz-padding: 0;
 }
-/* Menu Section========================================= */
+/* Menu Section------------------------------------------------------------- */
 #tf-menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -123,10 +122,7 @@ font-weight: 900;
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 	}
-	
-/* =================================================
-Home Style ========================================= */
-
+/* Home Style ------------------------------------------------------------- */
 #tf-home{
 	background: url(../img/01.jpg);	/*obrazek strona glowna M.*/
 	background-size: cover;
@@ -176,9 +172,7 @@ a.fa.fa-angle-down:hover{
 	color: #ffffff;
 	border: 2px solid #FCC07E;
 }
-/* ========================================================
-    O_nas Section ========================================= */
-	
+/* o_nas Section ------------------------------------------------------------- */
 #tf-o_nas{
 	padding: 80px 0;
 }
@@ -193,8 +187,7 @@ ul.o_nas-list li span{
 	margin-right: 10px;
 }
 
-/* ========================================================
-  Zdrowie Section ========================================= */
+/* zdrowie Section ------------------------------------------------------------- */
 #tf-zdrowie{
 	background: url(../img/03.jpg);
 	background-size: cover;
@@ -223,7 +216,34 @@ ul.o_nas-list li span{
 .section-title.center h2{
 	font-weight: 300;
 }
-/*
+
+#zdrowie{ margin: 0 auto}
+#zdrowie .item{
+    padding: 0;
+    margin: 15px;
+    color: #FFF;
+    text-align: center;
+}
+
+img.img-circle.zdrowie-img {
+	width: 120px;
+	height: 120px;
+	border: 4px solid transparent;
+	transition: all 0.5s;
+}
+#tf-zdrowie .item .thumbnail:hover>img.img-circle.zdrowie-img{
+	border: 4px solid #FCC07E;
+}
+#tf-zdrowie .thumbnail {
+	background: transparent;
+	border: 0;
+}
+
+#tf-zdrowie .thumbnail .caption {
+	padding: 9px;
+	color: #F2F2F2;
+}
+
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 10px;
@@ -246,17 +266,73 @@ ul.o_nas-list li span{
 }
 .owl-theme .owl-controls .owl-page.active span{
 	background: #FCC07E;
-}*/
+}
 
-/* ========================================================
-Chirurgia Section ========================================= */
+/* chirurgia Section */
 #tf-chirurgia{
 	padding: 80px 0;
 }
 
+.space{
+	margin-top: 40px;
+}
+/*
+#tf-chirurgia i.fa {
+	font-size: 40px;
+	border: 4px solid #FCC07E;
+	width: 100px;
+	height: 100px;
+	padding: 27px 25px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
 
-/* ========================================================
-Pielegnacja Section ======================================= */
+#tf-chirurgia i.fa.fa-mobile{
+	font-size: 50px;
+	padding: 20px 25px;
+}
+
+#tf-chirurgia .service:hover>i.fa{
+	background: #FCC07E;
+	color: #ffffff;
+}
+*/
+
+/* zdrowie Section ------------------------------------------------------------- */
+#tf-zdrowie{
+	background: url(../img/03.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+
+#tf-zdrowie .overlay{
+	background: -moz-linear-gradient(top,  rgba(89,165,159,0.8) 0%, rgba(89,165,159,0.73) 17%, rgba(89,165,159,0.66) 35%, rgba(89,165,159,0.55) 62%, rgba(89,165,159,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,165,159,0.8)), color-stop(17%,rgba(89,165,159,0.73)), color-stop(35%,rgba(89,165,159,0.66)), color-stop(62%,rgba(89,165,159,0.55)), color-stop(100%,rgba(89,165,159,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc59A59F', endColorstr='#6659A59F',GradientType=0 ); /* IE6-9 */
+	height: auto;
+	background-attachment: fixed;
+	padding: 80px 0;
+}
+.section-title.center{
+	padding: 30px 0;
+}
+.section-title h2,
+.section-title.center h2{
+	font-weight: 300;
+}
+============================================
+============================================
+
+
+/* pielegnacja Section ------------------------------------------------------------- */
 
 #tf-pielegnacja{
 	background: url(../img/03.jpg);
@@ -288,13 +364,12 @@ Pielegnacja Section ======================================= */
 	font-weight: 300;
 }
 
-/* ========================================================
-  Opieka Section  ========================================= */
+/* opieka Section  -------------------------------------------------------------------- */
 
 #tf-opieka{
 	padding: 80px 0;
 }
-/*
+
 #owl-demo .item{
   background: #3fbf79;
   padding: 30px 0px;
@@ -305,10 +380,8 @@ Pielegnacja Section ======================================= */
   border-radius: 3px;
   text-align: center;
     }
-*/
 
-/* ========================================================
-   porady Section ========================================= */
+/* porady Section -------------------------------------------------------------------- */
 
 #tf-porady{
 	background: url(../img/04.jpg);
@@ -358,15 +431,36 @@ Pielegnacja Section ======================================= */
 	outline-offset: none;
 }
 
-/* ========================================================
- Rozmaitosci Section ====================================== */
+/* Rozmaitosci Section -------------------------------------------------------------------- */
 
 #tf-rozmaitosci{
-	padding: 80px 0;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #ffffff;
 }
+/*zmieniono gradient tla M.*/
+#tf-rozmaitosci.overlay{
+	background: -moz-linear-gradient(top,  rgba(89,165,159,0.8) 0%, rgba(89,165,159,0.73) 17%, rgba(89,165,159,0.66) 35%, rgba(89,165,159,0.55) 62%, rgba(89,165,159,0.4) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,165,159,0.8)), color-stop(17%,rgba(89,165,159,0.73)), color-stop(35%,rgba(89,165,159,0.66)), color-stop(62%,rgba(89,165,159,0.55)), color-stop(100%,rgba(89,165,159,0.4))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc59A59F', endColorstr='#6659A59F',GradientType=0 ); /* IE6-9 */
+	padding: 80px 0;
+	background-attachment: fixed;
+}
+/*#rozmaitosci.item{
+    padding: 0;
+    margin: 35px;
+    color: #FFF;
+    text-align: center;
+}*/
 
-/* ========================================================
-  Kontakt Section ========================================= */
+
+/* Kontakt Section -------------------------------------------------------------------- */
 
 #tf-kontakt{
 	background: url(../img/05.jpg);  /*obrazek tla*/
@@ -376,33 +470,20 @@ Pielegnacja Section ======================================= */
 	background-repeat: no-repeat;
 	color: #ffffff;
 }
-
-#tf-kontakt .overlay{
-	background: -moz-linear-gradient(top, rgba(89,165,159,0.8) 0%, rgba(89,165,159,0.73) 17%, rgba(89,165,159,0.66) 35%, rgba(89,165,159,0.55) 62%, rgba(89,165,159,0.4) 100%); /* FF3.6+ */
+/*zmieniono gradient tla M.*/
+#tf-kontakt.overlay{
+	background: -moz-linear-gradient(top,  rgba(89,165,159,0.8) 0%, rgba(89,165,159,0.73) 17%, rgba(89,165,159,0.66) 35%, rgba(89,165,159,0.55) 62%, rgba(89,165,159,0.4) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(89,165,159,0.8)), color-stop(17%,rgba(89,165,159,0.73)), color-stop(35%,rgba(89,165,159,0.66)), color-stop(62%,rgba(89,165,159,0.55)), color-stop(100%,rgba(89,165,159,0.4))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* IE10+ */
-	background: linear-gradient(to bottom, rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* W3C */
+	background: -webkit-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(89,165,159,0.8) 0%,rgba(89,165,159,0.73) 17%,rgba(89,165,159,0.66) 35%,rgba(89,165,159,0.55) 62%,rgba(89,165,159,0.4) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc59A59F', endColorstr='#6659A59F',GradientType=0 ); /* IE6-9 */
 	padding: 80px 0;
 	background-attachment: fixed;
 }
 
-iframe#tf-kontakt .map{
-	padding: 10px 0;
-	float: right;
-}
-
-iframe:focus {
-    outline: none;
-}
-
-iframe[seamless] {
-    display: block;
-} 
-
-/* Footer Section ========================================= */
+/* Footer Section -------------------------------------------------------------------- */
 nav#footer{
 	background: #59A59F;
 	color: #ffffff;
