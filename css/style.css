@@ -79,6 +79,7 @@ ul, ol{
 	moz-padding: 0;
 }
 /* Menu Section========================================= */
+/*menu main page*/
 #tf-menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -111,7 +112,6 @@ font-weight: 900;
 	background-color: transparent;
 	font-weight: 700;
 }
-
 .navbar-toggle {
 	border-radius: 0;
 	}
@@ -123,6 +123,44 @@ font-weight: 900;
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
 	}
+/*menu subpage*/
+#tf-menu_subpage {
+	padding: 20px;
+	transition: all 0.8s;
+}
+#tf-menu_subpage .navbar-default {
+	background-color: #59A59F;
+	border-color: #59A59F;
+}
+#tf-menu_subpage a.navbar-brand {
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 900;
+}
+#tf-menu_subpage.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+#tf-menu_subpage.navbar-default .navbar-nav > .active > a, 
+#tf-menu_subpage.navbar-default .navbar-nav > .active > a:hover, 
+#tf-menu_subpage.navbar-default .navbar-nav > .active > a:focus {
+	color: #FCC07E !important;
+	font-weight: 700;
+}
+/*#tf-menu_subpage.navbar-toggle {
+	border-radius: 0;
+	}
+#tf-menu_subpage.navbar-default .navbar-toggle:hover, 
+#tf-menu_subpage.navbar-default .navbar-toggle:focus {
+	background-color: #FCC07E;
+	border-color: #FCC07E;
+	}
+#tf-menu_subpage.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #59A59F;
+	}*/
 	
 /* =================================================
 Home Style ========================================= */
